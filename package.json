@@ -1,0 +1,33 @@
+{
+  "name": "sanity_starter_template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Basic Starter template for Sanity.",
+  "main": "package.json",
+  "author": "Taimoor Sattar <taimoorsattar7@gmail.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "sanity start",
+    "format": "prettier-eslint --write \"**/*.js\" \"!node_modules/**\"",
+    "build": "sanity build",
+    "graphql-deploy": "sanity graphql deploy --playground",
+    "lint": "eslint .",
+    "test": "sanity check"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.22.3",
+    "@sanity/components": "^2.14.0",
+    "@sanity/core": "^2.22.3",
+    "@sanity/default-layout": "^2.22.3",
+    "@sanity/default-login": "^2.22.3",
+    "@sanity/desk-tool": "^2.22.3",
+    "@sanity/vision": "^2.22.3",
+    "prop-types": "^15.7",
+    "react": "^17.0",
+    "react-dom": "^17.0",
+    "styled-components": "^5.3.3"
+  }
+}
