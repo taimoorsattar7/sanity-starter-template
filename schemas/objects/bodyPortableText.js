@@ -23,8 +23,7 @@ export default {
       ],
       lists: [
         { title: "Bullet", value: "bullet" },
-        { title: "Number", value: "number" },
-        { title: "Code", value: "code" },
+        { title: "Number", value: "number" }
       ],
       // Marks let you mark up inline text in the block editor.
       marks: {
@@ -32,8 +31,7 @@ export default {
         // preference or highlighting by editors.
         decorators: [
           { title: "Strong", value: "strong" },
-          { title: "Emphasis", value: "em" },
-          { title: "Code", value: "code" },
+          { title: "Emphasis", value: "em" }
         ],
         // Annotations can be any object structure – e.g. a link or a footnote.
         annotations: [

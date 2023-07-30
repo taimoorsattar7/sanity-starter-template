@@ -1,6 +1,6 @@
-# Sanity Starter Template
+# Sanity Starter Template V3
 
-To get started, you need to place **projectId** and **dataset** in the `sanity.json` file. Create new project at [sanity.io/manage](https://www.sanity.io/manage) to get **projectId** and **dataset** details.
+To get started, you need to place **projectId** and **dataset** in the `sanity.config.js` file. Create new project at [sanity.io/manage](https://www.sanity.io/manage) to get **projectId** and **dataset** details.
 
 To run the project locally, you can follow the below steps:
 
